@@ -53,7 +53,7 @@ a {
 }
 
 .time {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   position: relative;
   top: 15px;
@@ -62,4 +62,5 @@ a {
 .date {
   opacity: 0.7;
   margin-bottom: 10px;
+  font-size: 13px;
 }
