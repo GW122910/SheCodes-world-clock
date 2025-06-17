@@ -43,6 +43,7 @@ function updateCity(event) {
   let cityName = cityTimeZone.replace("_", " ").split("/")[1];
   let cityTimeMoment = moment().tz(cityTimeZone);
   let citySelectUpdate = document.querySelector("#cities");
+
   citySelectUpdate.innerHTML = `
    <div class="place">
           <div>
@@ -56,6 +57,9 @@ function updateCity(event) {
           )}<small>${cityTimeMoment.format("A")}</small>
           </div>
         </div>
+
+        <br />
+        <a href="https://digitalworld-clock.netlify.app/">Return to main page</a>
   `;
 }
 

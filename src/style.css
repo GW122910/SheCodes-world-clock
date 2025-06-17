@@ -33,7 +33,11 @@ footer {
 }
 
 a {
-  font-weight: bold;
+  font-size: 13px;
+}
+
+a:hover {
+  cursor: pointer;
 }
 
 .container {
